@@ -3,7 +3,7 @@
     <div id="wrapper">
             <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
                 <div class="navbar-header">
-                    <router-link to="/" class="navbar-brand" href="index.html">CYBERDINDE SYSTEMS VENTAS Y REGISTROS</router-link>
+                    <router-link to="/index" class="navbar-brand" href="index.html">CYBERDINDE SYSTEMS VENTAS Y REGISTROS</router-link>
                 </div>
 
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -49,16 +49,16 @@
                                 
                             </li>
                             <li>
-                                <router-link to="/"><i class="fa fa-dashboard fa-fw"></i>Escritorio</router-link>
+                                <router-link to="/index"><i class="fa fa-dashboard fa-fw"></i>Escritorio</router-link>
                             </li>
                             <li>
                                 <a href="#"><i class="fa fa-tags" aria-hidden="true"></i> Almacen<span class="fa arrow"></span></a>
                                 <ul class="nav nav-second-level">
                                     <li>
-                                        <a href="#"><i class="fa fa-tags" aria-hidden="true"></i> Articulos</a>
+                                        <router-link to="/articulos"><i class="fa fa-tags"></i> Articulos</router-link>
                                     </li>
                                     <li>
-                                        <a href="#"> <i class="fa fa-circle-o" aria-hidden="true"></i> Categorias</a>
+                                        <router-link to="/categorias"><i class="fa fa-circle-o"></i> Categorias</router-link>
                                     </li>
                                 </ul>
                             </li>
