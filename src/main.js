@@ -7,6 +7,12 @@ import categorias from './components/listadoCategorias.vue'
 import categoriasCrear from './components/crearCategorias.vue'
 import login from './components/loginUsuario.vue'
 import articulos from './components/listadoArticulos.vue'
+import articulosCrear from './components/crearArticulos.vue'
+import clientes from './components/listadoClientes.vue'
+import proveedores from './components/listadoProveedores.vue'
+import proveedoresCrear from './components/crearProveedores.vue'
+import ingreso from './components/listadoIngreso.vue'
+import ingresoCrear from './components/crearIngreso.vue'
 Vue.use(VueRouter)
 const routes=[
   {
@@ -25,6 +31,18 @@ const routes=[
     path:'/categoriasCrear',component:categoriasCrear
   },{
     path:'/articulos',component:articulos
+  },{
+    path:'/articulosCrear',component:articulosCrear
+  },{
+    path:'/clientes',component:clientes
+  },{
+    path:'/proveedores',component:proveedores
+  },{
+    path:'/proveedoresCrear',component:proveedoresCrear
+  },{
+    path:'/ingresos',component:ingreso
+  },{
+    path:'/ingresoCrear',component:ingresoCrear
   }
 ]
 const router=new VueRouter({

@@ -4,7 +4,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-12">
-                            <h1 class="page-header">Listado Articulos  <router-link to="/articulosCrear"><button class="btn btn-success">Nuevo Articulo</button></router-link></h1>
+                            <h1 class="page-header">Listado Proveedores <router-link to="/proveedoresCrear"><button class="btn btn-success">Nuevo Proveedor</button></router-link></h1>
                         </div>
                         <!-- /.col-lg-12 -->
                     </div>
@@ -13,7 +13,7 @@
                         <div class="col-lg-12">
                             <div class="panel panel-default">
                                 <div class="panel-heading">
-                                    Gestion y Registro de Articulos
+                                    Gestion y Registro de Clientes
                                 </div>
                                 <!-- /.panel-heading -->
                                 <div class="panel-body">
@@ -22,12 +22,11 @@
                                             <thead>
                                                 <tr>
                                                     <th>ID</th>
+                                                    <th>C.I.</th>
                                                     <th>Nombre</th>
-                                                    <th>Codigo</th>
-                                                    <th>Categoria</th>
-                                                    <th>Stock</th>
-                                                    <th>Imagen</th>
-                                                    <th>Estado</th>
+                                                    <th>Apellidos</th>
+                                                    <th>Email</th>
+                                                    <th>Telefono</th>
                                                     <th>Opciones</th>
                                                 </tr>
                                             </thead>
@@ -38,7 +37,6 @@
                                                     <td>Win 95+</td>
                                                     <td>************</td>
                                                     <td>**********</td>
-                                                    <td>*************</td>
                                                     <td>*************</td>
                                                     <td class="center">
                                                         <button type="submit" class="btn btn-info">Editar</button>
@@ -53,11 +51,7 @@
                                                     <td>************</td>
                                                     <td>**********</td>
                                                     <td>*************</td>
-                                                    <td>*************</td>
-                                                    <td class="center">
-                                                        <button type="submit" class="btn btn-info">Editar</button>
-                                                        <button type="reset" class="btn btn-danger">Eliminar</button>
-                                                    </td>
+                                                    
                                                 </tr>
                                             </tbody>
                                         </table>

@@ -66,10 +66,11 @@
                                 <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Compras<span class="fa arrow"></span></a>
                                 <ul class="nav nav-second-level">
                                     <li>
-                                        <a href="#"><i class="fa fa-circle-o" aria-hidden="true"></i> Ingresos</a>
+                                        <router-link to="/ingresos"><i class="fa fa-circle-o" aria-hidden="true"></i> Ingresos</router-link>
+                                   
                                     </li>
                                     <li>
-                                        <a href="#"><i class="fa fa-circle-o" aria-hidden="true"></i> Proveedores</a>
+                                        <router-link to="/proveedores"><i class="fa fa-circle-o" aria-hidden="true"></i> Proveedores</router-link>
                                     </li>
                                 </ul>
                             </li>
@@ -80,7 +81,7 @@
                                         <a href="#"><i class="fa fa-circle-o" aria-hidden="true"></i> Ventas</a>
                                     </li>
                                     <li>
-                                        <router-link to="/registroUsuario"><i class="fa fa-circle-o" aria-hidden="true"></i> Clientes</router-link>
+                                        <router-link to="/clientes"><i class="fa fa-circle-o" aria-hidden="true"></i> Clientes</router-link>
                                     </li>
                                 </ul>
                             </li>
